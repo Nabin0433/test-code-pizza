@@ -17,7 +17,7 @@ const part1 = (directions) => {
     const visited = new Set(["0,0"]);
 
     for (const dir of directions) {
-        console.log(dir);
+        // console.log(dir);
         
         pos = move(pos, dir);
         visited.add(pos.join(","));
